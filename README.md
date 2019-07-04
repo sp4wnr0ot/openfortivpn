@@ -1,5 +1,10 @@
 openfortivpn
 ============
+VPN client, Linux environment
+
+Tested on RHEL 7.6 x86_64, don't forget to install "openssl-devel"
+
+$ sudo yum install openssl-devel
 
 openfortivpn is a client for PPP+SSL VPN tunnel services.  
 It spawns a pppd process and operates the communication between the gateway and 
